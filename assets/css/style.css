@@ -136,104 +136,6 @@ main {
     z-index: 100000;
 }
 
-/* phone */
-@media (max-width: 576px) {
-    .first-input {
-        top: 50%;
-        transform: translateY(-50%);
-        right: 28%;
-        height: 32px;
-        width: 156px;
-        border: none;
-        outline: none;
-        background-color: transparent;
-        padding-left: 20px;
-        font-size: 10px;
-    }
-
-    .last-input {
-        top: 56%;
-        transform: translateY(-50%);
-        right: 28%;
-        height: 32px;
-        width: 156px;
-        border: none;
-        outline: none;
-        background-color: transparent;
-        padding-left: 20px;
-        font-size: 10px;
-    }
-
-    .bg-global button.submit {
-        position: absolute;
-        top: 61%;
-        transform: translateY(-50%);
-        right: 39%;
-        height: 24px;
-        width: 69px;
-        border-radius: 9999999999px;
-        border: none;
-        outline: none;
-        background-color: transparent;
-    }
-}
-
-/* phone SE */
-@media (max-width: 375px) {
-    .first-input {
-        top: 50%;
-        transform: translateY(-50%);
-        right: 28%;
-        height: 32px;
-        width: 156px;
-    }
-
-    .last-input {
-        top: 56%;
-        transform: translateY(-50%);
-        right: 28%;
-        height: 32px;
-        width: 156px;
-    }
-
-    .bg-global button.submit {
-        position: absolute;
-        top: 61%;
-        transform: translateY(-50%);
-        right: 39%;
-        height: 24px;
-        width: 69px;
-    }
-}
-
-/* phone XR */
-@media (max-width: 415px) {
-    .first-input {
-        top: 50%;
-        transform: translateY(-50%);
-        right: 28%;
-        height: 32px;
-        width: 156px;
-    }
-
-    .last-input {
-        top: 55%;
-        transform: translateY(-50%);
-        right: 28%;
-        height: 32px;
-        width: 156px;
-    }
-
-    .bg-global button.submit {
-        position: absolute;
-        top: 59%;
-        transform: translateY(-50%);
-        right: 39%;
-        height: 24px;
-        width: 69px;
-    }
-}
-
 /* Ipad */
 @media (max-width: 860px) {
     .first-input {
@@ -324,5 +226,103 @@ main {
         border: none;
         outline: none;
         background-color: transparent;
+    }
+}
+
+/* phone */
+@media (max-width: 576px) {
+    .first-input {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 28%;
+        height: 32px;
+        width: 156px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        padding-left: 20px;
+        font-size: 10px;
+    }
+
+    .last-input {
+        top: 56%;
+        transform: translateY(-50%);
+        right: 28%;
+        height: 32px;
+        width: 156px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        padding-left: 20px;
+        font-size: 10px;
+    }
+
+    .bg-global button.submit {
+        position: absolute;
+        top: 61%;
+        transform: translateY(-50%);
+        right: 39%;
+        height: 24px;
+        width: 69px;
+        border-radius: 9999999999px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+}
+
+/* phone XR */
+@media (max-width: 415px) {
+    .first-input {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 28%;
+        height: 32px;
+        width: 156px;
+    }
+
+    .last-input {
+        top: 55%;
+        transform: translateY(-50%);
+        right: 28%;
+        height: 32px;
+        width: 156px;
+    }
+
+    .bg-global button.submit {
+        position: absolute;
+        top: 59%;
+        transform: translateY(-50%);
+        right: 39%;
+        height: 24px;
+        width: 69px;
+    }
+}
+
+/* phone SE */
+@media (max-width: 376px) {
+    .first-input {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 28%;
+        height: 32px;
+        width: 156px;
+    }
+
+    .last-input {
+        top: 56%;
+        transform: translateY(-50%);
+        right: 28%;
+        height: 32px;
+        width: 156px;
+    }
+
+    .bg-global button.submit {
+        position: absolute;
+        top: 61%;
+        transform: translateY(-50%);
+        right: 39%;
+        height: 24px;
+        width: 69px;
     }
 }
